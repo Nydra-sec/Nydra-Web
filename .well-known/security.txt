@@ -1,0 +1,4 @@
+Contact: mailto:contacto@nydra.org
+Expires: 2026-12-31T23:59:59.000Z
+Preferred-Languages: es, en
+Canonical: https://www.nydra.org/.well-known/security.txt
