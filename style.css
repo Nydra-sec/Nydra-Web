@@ -1,8 +1,10 @@
 :root {
     --bg-color: #050505;
     --text-color: #e0e0e0;
-    --accent-color: #00f0ff; /* Cyan for tech/security */
-    --accent-secondary: #00ff9d; /* Green for success/safe */
+    --accent-color: #00f0ff;
+    /* Cyan for tech/security */
+    --accent-secondary: #00ff9d;
+    /* Green for success/safe */
     --glass-bg: rgba(255, 255, 255, 0.03);
     --glass-border: rgba(255, 255, 255, 0.05);
     --font-main: 'Outfit', sans-serif;
@@ -32,7 +34,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: 
+    background-image:
         linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
     background-size: 50px 50px;
@@ -104,9 +106,17 @@ header {
 }
 
 @keyframes pulse {
-    0% { opacity: 1; }
-    50% { opacity: 0.5; }
-    100% { opacity: 1; }
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 /* Hero Section */
@@ -200,7 +210,7 @@ footer {
     h1 {
         font-size: 2.5rem;
     }
-    
+
     .subtitle {
         font-size: 1rem;
     }
@@ -208,18 +218,18 @@ footer {
     .email-link {
         font-size: 1.2rem;
     }
-    
+
     .footer-content {
         flex-direction: column;
         gap: 0.5rem;
         text-align: center;
     }
-    
+
     .container {
         align-items: center;
         text-align: center;
     }
-    
+
     .hero {
         align-items: center;
     }

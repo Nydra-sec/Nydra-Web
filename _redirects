@@ -1,0 +1,7 @@
+# Redirect robots.txt específicamente
+http://nydra.org/robots.txt https://www.nydra.org/robots.txt 301!
+https://nydra.org/robots.txt https://www.nydra.org/robots.txt 301!
+
+# Redirect general del dominio
+http://nydra.org/* https://www.nydra.org/:splat 301
+https://nydra.org/* https://www.nydra.org/:splat 301
